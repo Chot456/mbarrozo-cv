@@ -1,194 +1,489 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <style>
-        body {
-            background-color: #f8f9fa;
-            font-family: 'Arial', sans-serif;
-        }
-        .sidebar {
-            background-color: #343a40;
-            color: white;
-            padding: 20px;
-            height: 200vh;
-            text-align: center;
-        }
-        .sidebar h1 {
-            color: #ffffff;
-        }
-        .sidebar img {
-            border-radius: 50%;
-            width: 100px; /* Adjust size as needed */
-            height: 100px; /* Adjust size as needed */
-            margin-bottom: 20px;
-        }
-        .content {
-            padding: 20px;
-        }
-        h1, h2, h3 {
-            color: #343a40;
-        }
-        .section {
-            margin-bottom: 20px;
-        }
-        .skills {
-            list-style-type: none;
-            padding: 0;
-        }
-        .skills li {
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-        }
-        .skills i {
-            margin-right: 10px;
-            color: #007bff; /* Icon color */
-        }
-        .experience, .education {
-            list-style-type: none;
-            padding: 0;
-        }
-        .experience li, .education li {
-            margin-bottom: 10px;
-        }
-        .name {
-            color: #ffffff;
-        }
-    </style>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>MBarrozo Portfolio</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
 </head>
-<body>
 
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-md-3 sidebar">
-            <img src="pic_jr.JPG" alt="Profile Picture"> <!-- Replace with your image URL -->
-            <h2 class="name">Marlito Barrozo Jr</h2>
-            <p>Gmail: jr.barrozo456@gmail.com/p>
-            <p>Contact: 09062525889</p>
-
-        </div>
-        <div class="col-md-9 content">
-            <div class="section">
-                <h2>Summary</h2>
-                <p>To obtain employment with a company that offers a positive
-                    atmosphere to learn and implement new skills and
-                    technologies for the betterment of the organization.</p>
-            </div>
-
-            <div class="section">
-                <h2>Skills</h2>
-                <ul class="skills">
-                    <li><i class="fab fa-js-square"></i> JavaScript</li>
-                    <li><i class="fab fa-html5"></i> HTML</li>
-                    <li><i class="fab fa-css3-alt"></i> CSS</li>
-                    <li><i class="fab fa-react"></i> React.js</li>
-                    <li><i class="fab fa-vuejs"></i> Vue.js</li>
-                    <li><i class="fab fa-php"></i> php</li>
-                    <li><i class="fab fa-laravel"></i> Laravel</li>
-                    <li><i class="fas fa-database"></i> SQL</li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>Experience</h2>
-                <ul class="experience">
-                    <li>
-                        <h3>QA Automation Engineer / Software Developer</h3>
-                        <p><a href="https://www.bizmates.ph/" target="_blank">Bizmates PH</a> | February 2022 - August 2024</p>
-                        <h5>Responsibilities:</h5>
-                        <b>Automation Testing</b>
-                        <ul>
-                            <li>Develop and execute automated test scripts using
-                                Java and Selenium for desktop, mobile and API
-                                testing.</li>
-                            <li>Applied a hybrid framework (Data-Driven and
-                                Keyword-Driven) using Selenium WebDriver for
-                                Chrome, Edge and Safari</li>
-                            <li>Conduct code reviews of automated test script and
-                                integrate into repository workflow.</li>
-                        </ul>
-                        <b>Manual Testing</b>
-                        <ul>
-                            <li>Executed manual or automated test cases and
-                                analyzed results</li>
-                            <li>Created, designed and performed comprehensive
-                                    test procedures to ensure products passed high
-                                    standards of quality prior to release.</li>
-                            <li>Attended sprint planning, daily stand-ups, sprint
-                                        retrospectives and meet with developers for short
-                                        hand-off demonstrations</li>
-                        </ul>
-                        <b>Development</b>
-                        <ul>
-                            <li>Create test driven development in backend using
-                                Laravel Framework</li>
-                            <li>Create and design API using PHP Laravel framework</li>
-                            <li>Create and design frontend using Vue.js, Nuxt.js
-                                typescript</li>
-                            <li>
-                                Modifies existing code with new features available in current and future deployments of
-                                PHP/Nuxt.js/Graphql/MySQL.
-                            </li>
-                            <li>
-                                Debugging, tests, and maintains the core product
-software and databases to ensure strong
-optimization and functionality.
-                            </li>
-                            <li>Code reviews and suggest recommendations if
-                                necessary in GitHub pull request</li>
-                            <li>
-                                Convert legacy codes into new technologies using
-Nuxt.js and Laravel framework
-                            </li>
-                            <li>
-                                Updating progress daily through the tracking tool
-(Jira) or Kanban board.
-                            </li>
-                        </ul>
-                        <b>Devops</b>
-                        <ul>
-                            <li>Investigate and fix bug in production side for all microservices</li>
-                            <li>Create documentation for deployment plan</li>
-                            <li>Shell Scripting</li>
-                            <li>AWS Cloudwatch and S3 Bucket managing</li>
-                            <li>Database managing and perform SQL queries to generates needed data</li>
-                        </ul>
-                        <p></p>
-                    </li>
-                    <hr>
-                    <li>
-                        <h3>Product Developer</h3>
-                        <p><a href="https://ubind.insure/" target="_blank">Ubind</a> | June 2021 - February 2022</p>
-                        <h5>Responsibilities:</h5>
-                        <b>Development</b>
-                        <ul>
-                            <li>Develop Web Applications using HTML, CSS,
-                                Javascript, JQuery and AJAX</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="section">
-                <h2>Education</h2>
-                <ul class="education">
-                    <li>
-                        <h3>Bachelor of Science in Information Technology</h3>
-                        <p>PAMANTASAN NG LUNGSOD NG MARIKINA | Graduated April 2016</p>
-                    </li>
+<body id="page-top">
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand" href="#page-top">Portfolio</a>
+            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
+                aria-expanded="false" aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#techskills">Technical Skills</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                            href="#profxp">Experience</a></li>
                 </ul>
             </div>
         </div>
+    </nav>
+    <!-- Masthead-->
+    <header class="masthead bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- Masthead Avatar Image-->
+            <img class="masthead-avatar mb-5" src="assets/img/pic_jr3.png" alt="..." />
+            <!-- Masthead Heading-->
+            <h1 class="masthead-heading text-uppercase mb-0">Marlito Barrozo Jr</h1>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Masthead Subheading-->
+            <p class="masthead-subheading font-weight-light mb-0">Software Development in Test (SDET)</p>
+        </div>
+    </header>
+    <!-- Portfolio Section-->
+    <section class="page-section portfolio" id="portfolio">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase">Portfolio</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="lead">
+                        I am a seasoned professional with 6 years of combined experience in software development and
+                        quality assurance.
+                        My career foundation includes 4 years as a Software Developer, focusing on building robust and
+                        scalable applications.
+                        For the last 2 years, I've excelled as a Hybrid Software Developer in Test (SDET), where I
+                        leverage my strong development
+                        background to design and implement comprehensive automated testing frameworks, significantly
+                        improving product
+                        reliability and accelerating the deployment pipeline. I am passionate about writing clean,
+                        efficient code
+                        and bridging the gap between development and testing to deliver high-quality software.
+                    </p>
+                </div>
+            </div>
+            <!-- About Section Button-->
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-dark" href="https://startbootstrap.com/theme/freelancer/">
+                    <i class="fas fa-download me-2"></i>
+                    Download CV
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Technical Skills Section-->
+    <section class="page-section bg-primary text-white mb-0" id="techskills">
+        <div class="container">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Technical Skills</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="lead">
+                        UI Testing &nbsp; | &nbsp;
+                        API Testing &nbsp; | &nbsp;
+                        Data Testing &nbsp; | &nbsp;
+                        TestNG &nbsp; | &nbsp;
+                        JMeter &nbsp; | &nbsp;
+                        Applitools &nbsp; | &nbsp;
+                        Cucumber BDD &nbsp; | &nbsp;
+                        Gherkin &nbsp; | &nbsp;
+                        Browserstack &nbsp; | &nbsp;
+                        Postman &nbsp; | &nbsp;
+                        Typescript &nbsp; | &nbsp;
+                        Javascript &nbsp; | &nbsp;
+                        C# &nbsp; | &nbsp;
+                        Java &nbsp; | &nbsp;
+                        PHP &nbsp; | &nbsp;
+                        HTML &nbsp; | &nbsp;
+                        CSS &nbsp; | &nbsp;
+                        SCSS &nbsp; | &nbsp;
+                        JQuery &nbsp; | &nbsp;
+                        Ajax &nbsp; | &nbsp;
+                        MS SQL &nbsp; | &nbsp;
+                        Stored Procedure &nbsp; | &nbsp;
+                        MYSQL &nbsp; | &nbsp;
+                        Monggodb &nbsp; | &nbsp;
+                        Redis &nbsp; | &nbsp;
+                        Azure Devops &nbsp; | &nbsp;
+                        Appinsights &nbsp; | &nbsp;
+                        Databricks &nbsp; | &nbsp;
+                        pipeline classic/yml &nbsp; | &nbsp;
+                        Jenkins &nbsp; | &nbsp;
+                        CI/CD &nbsp; | &nbsp;
+                        AWS &nbsp; | &nbsp;
+                        S3 &nbsp; | &nbsp;
+                        Firewall Pfsense &nbsp; | &nbsp;
+                        Network Security &nbsp; | &nbsp;
+                        Computer Software and &nbsp; | &nbsp;
+                        Hardware troubleshooting &nbsp; | &nbsp;
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Technical Skills Section-->
+    <!--My Experience Section-->
+    <section class="page-section" id="profxp">
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Professional Experience</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Contact Section Form-->
+            <div class="row justify-content-center">
+                <div class="row mb-4">
+                    <div class="col-lg-12">
+                        <p class="lead mb-0">
+                            <!-- Header -->
+                        <h3 class="text-3xl font-extrabold text-gray-900 mb-1">
+                            Willis Towers Watson
+                        </h3>
+                        <div
+                            class="flex flex-col sm:flex-row justify-between items-start sm:items-center text-gray-600">
+                            <p class="text-xl font-semibold text-primary">
+                                Software Development in Test (SDET)
+                            </p>
+                            <p class="text-lg font-medium">
+                                Aug 2024 - Present
+                            </p>
+                        </div>
+                        <ul class="achievement-list text-gray-700">
+                            <li>
+                                Led automation of UI (E2E), API, and data tests using <span
+                                    class="font-semibold text-primary">Selenium C# and Gherkin</span>, successfully
+                                reducing manual regression testing time and significantly improving overall team
+                                efficiency.
+                            </li>
+
+                            <li>
+                                Engineered and deployed automated test integration within <span
+                                    class="font-semibold">CI/CD workflows on Azure Pipelines</span>, ensuring continuous
+                                quality and reliability throughout the development lifecycle.
+                            </li>
+
+                            <li>
+                                Actively participated in code quality enforcement by <span
+                                    class="font-semibold">reviewing code pull requests</span> via Azure repository,
+                                maintaining high standards for all codebase contributions.
+                            </li>
+
+                            <li>
+                                Drove code improvements in the testing framework, which resulted in a measurable <span
+                                    class="font-semibold text-accent">30% decrease in testing errors</span>, enhanced
+                                code readability, and optimized test execution performance.
+                            </li>
+                            <li>
+                                Pioneered the implementation of modern UAT UI testing using <span
+                                    class="font-semibold text-primary">Playwright with TypeScript</span>, seamlessly
+                                integrating the framework into Azure CI/CD pipelines to boost test automation and
+                                delivery speed.
+                            </li>
+                            <li>
+                                Ensured data integrity for Analytics by validating transformed data from <span
+                                    class="font-semibold">Azure Application Insights to Databricks</span>, utilizing
+                                stored procedure analysis and creating precise SQL query counterparts for validation.
+                            </li>
+                            <li>
+                                Collaborated closely with the Scrum team to refine sprint ticket and backlog management,
+                                facilitating the breakdown of large tasks into smaller, manageable components, which led
+                                to clearer task definitions and better alignment with company strategic goals.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-12">
+                        <p class="lead mb-0">
+                            <!-- Header -->
+                        <h3 class="text-3xl font-extrabold text-gray-900 mb-1">
+                            BIZMATES PH
+                        </h3>
+                        <div
+                            class="flex flex-col sm:flex-row justify-between items-start sm:items-center text-gray-600">
+                            <p class="text-xl font-semibold text-primary">
+                                Software Developer / DevOps / Automation Engineer
+                            </p>
+                            <p class="text-lg font-medium">
+                                Feb 2022 - Aug 2024
+                            </p>
+                        </div>
+                        <ul class="achievement-list text-gray-700">
+                            <li>
+                                Pioneered the establishment of a new QA Automation department and spearheaded the
+                                development of a
+                                comprehensive Regression Automation Framework using Java Selenium for UI testing,
+                                Jenkins for CI/CD
+                                integration, Rest Assured for API testing, and Cucumber for BDD, significantly improving
+                                testing efficiency by
+                                reducing manual regression testing time, with the framework continuously enhanced and
+                                still in use today to drive
+                                consistent improvements in testing speed and coverage.
+
+                            </li>
+
+                            <li>
+                                Built and maintained web applications with Laravel, Vue.js, and MySQL, incorporating
+                                unit testing for reliability.
+
+                            </li>
+
+                            <li>
+                                Review code pull requests via repository in Github
+
+                            </li>
+
+                            <li>
+                                Collaborated with the Scrum team to improve sprint ticket and backlog, facilitating the
+                                breakdown of tasks into
+                                smaller, manageable components, which led to clearer task definitions and better
+                                alignment with company goals.
+                            </li>
+                            <li>
+                                Upgraded the company’s Trainer Portal System from FuelPHP to Nuxt.js, GraphQL, and
+                                Laravel, leading to
+                                significant enhancements in performance and security.
+
+                            </li>
+                            <li>
+                                Contributed to the DevOps team by reducing and investigating application failures
+                                through close monitoring of
+                                AWS services to improve system performance and defect resolution. Generated detailed
+                                reports via MySQL
+                                queries on production databases and managed release activities, including creating
+                                release plans
+
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-12">
+                        <p class="lead mb-0">
+                            <!-- Header -->
+                        <h3 class="text-3xl font-extrabold text-gray-900 mb-1">
+                            Ubind
+                        </h3>
+                        <div
+                            class="flex flex-col sm:flex-row justify-between items-start sm:items-center text-gray-600">
+                            <p class="text-xl font-bold text-primary">
+                                Product Developer (Offshore)
+                            </p>
+                            <p class="text-lg font-medium">
+                                June 2021- Feb 2022
+                            </p>
+                        </div>
+                        <ul class="achievement-list text-gray-700">
+                            <li>
+                                Develop Web Applications using HTML, CSS, Javascript, JQuery and AJAX
+                            </li>
+
+                            <li>
+                                Development Email templating using ASP.net RAZOR
+                            </li>
+
+                            <li>
+                                Review code pull requests via repository in Github
+                            </li>
+
+                            <li>
+                                Create and Design Web Application UI using Figma
+                            </li>
+                            <li>
+                                Collaborated with the Scrum team to improve sprint ticket and backlog, facilitating the
+                                breakdown of tasks into
+                                smaller, manageable components, which led to clearer task definitions and better
+                                alignment with company goals.
+
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-12">
+                        <p class="lead mb-0">
+                            <!-- Header -->
+                        <h3 class="text-3xl font-extrabold text-gray-900 mb-1">
+                            Cafe24 PH
+                        </h3>
+                        <div
+                            class="flex flex-col sm:flex-row justify-between items-start sm:items-center text-gray-600">
+                            <p class="text-xl font-bold text-primary">
+                                Software Developer
+                            </p>
+                            <p class="text-lg font-medium">
+                                Jan 2020- May 2021
+                            </p>
+                        </div>
+                        <ul class="achievement-list text-gray-700">
+                            <li>
+                                Developed and enhanced web applications using PHP Laravel (backend), Vue.js (frontend),
+                                and MySQL
+                                (database)
+                            </li>
+
+                            <li>
+                                Develop and Update API using Laravel Framework
+                            </li>
+
+                            <li>
+                                Create Automation test using Java and Selenium for UI Testing
+                            </li>
+
+                            <li>
+                                Performed Manual UI and functional testing
+                            </li>
+                            <li>
+                                Create documentation from setting up to Web Application Functionalities
+                            </li>
+                            <li>
+                                Collaborated with the Scrum team to improve sprint ticket and backlog, facilitating the
+                                breakdown of tasks into
+                                smaller, manageable components, which led to clearer task definitions and better
+                                alignment with company goals.
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+                <div class="row mb-4">
+                    <div class="col-lg-12">
+                        <p class="lead mb-0">
+                            <!-- Header -->
+                        <h3 class="text-3xl font-extrabold text-gray-900 mb-1">
+                            Full Potential BPO Inc
+                        </h3>
+                        <div
+                            class="flex flex-col sm:flex-row justify-between items-start sm:items-center text-gray-600">
+                            <p class="text-xl font-bold text-primary">
+                                IT Specialist
+                            </p>
+                            <p class="text-lg font-medium">
+                                Oct 2016- July 2019
+                            </p>
+                        </div>
+                        <ul class="achievement-list text-gray-700">
+                            <li>
+                                Setup network security by configuring and managing pfSense firewall
+                            </li>
+
+                            <li>
+                                Optimized network performance and security by creating rules for inbound/outbound
+                                bandwidth filtering,
+                                configuring port forwarding, managing website whitelists/blacklists, and implementing
+                                bandwidth monitoring
+                            </li>
+
+                            <li>
+                                Enhanced infrastructure by setting up and maintaining FTP servers, workstations, and
+                                network cabling
+                            </li>
+
+                            <li>
+                                Streamlined communication by configuring SMTP via HostGator for end-user email services
+                            </li>
+                            <li>
+                                Improved system reliability by monitoring and resolving software, hardware, and server
+                                issues
+                            </li>
+                            <li>
+                                Create and Setup Linux Samba ftp server
+                            </li>
+                            <li>
+                                Setup and configured printer server
+                            </li>
+                        </ul>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of My experience section-->
+
+    <!-- Footer-->
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <!-- Footer Location-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Location</h4>
+                    <p class="lead mb-0">
+                        Marikina Metro Manila,
+                        <br />
+                        ZIP 1812
+                    </p>
+                </div>
+                <!-- Footer Social Icons-->
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                    <h4 class="text-uppercase mb-4">Around the Web</h4>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i
+                            class="fab fa-fw fa-linkedin-in"></i></a>
+                    <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                </div>
+                <!-- Footer About Text-->
+                <div class="col-lg-4">
+                    <h4 class="text-uppercase mb-4">Contact</h4>
+                    <p class="lead mb-0">
+                        Email: jr.barrozo456@gmail.com <br />
+                        Mobile: +639062525889
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Copyright Section-->
+    <div class="copyright py-4 text-center text-white">
+        <div class="container"><small>MBarrozo Portfolio</small></div>
     </div>
-</div>
 
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
+
 </html>
